@@ -1,0 +1,67 @@
+.header {
+    height: 150px;
+    background-color: chartreuse;
+}
+.banner{
+    height: 150px;
+    background-color: chartreuse;
+}
+.main-content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.menu-bar{
+    padding: 10px 10px;
+}
+.menu-bar ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.menu-bar ul a{
+    text-decoration: none;
+}
+.menu-bar ul a:hover{
+    color: cyan;
+}
+.main-content {
+    height: 400px;
+    background-color: blanchedalmond;
+}
+.navigation-bar {
+    width: 25%;
+    float: left;
+}
+.navigation-bar ul {
+    list-style: none;
+}
+
+.content {
+    width: 50%;
+    float: left;
+    display: flex;
+    gap: 10px;
+}
+.content.product-item {
+    width: 30%;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    padding: 5px;
+}
+.content.product-item img {
+    width: 100%;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+}
+.product-item .product-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.footer {
+    height: 150px;
+    background-color: hotpink;
+}
